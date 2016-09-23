@@ -26,7 +26,7 @@ docker build -t alpine-shadowsocks-supervisor:latest .
 ## Pulling from Docker Hub
 Pull the image from docker hub rather than downloading the git repo. This prevents you having to build the image on every docker host:
 ```
-docker pull wisicn/alpine-shadowsocks-supervisor/:latest
+docker pull wisicn/alpine-shadowsocks-supervisor:latest
 ```
 
 ## Running
