@@ -1,3 +1,4 @@
+[![](https://images.microbadger.com/badges/version/wisicn/alpine-shadowsocks-supervisor.svg)](https://microbadger.com/images/wisicn/alpine-shadowsocks-supervisor "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/wisicn/alpine-shadowsocks-supervisor.svg)](https://microbadger.com/images/wisicn/alpine-shadowsocks-supervisor "Get your own image badge on microbadger.com")
 ## Credit
 This docker file is created from [shadowsocks/shadowsocks](https://github.com/shadowsocks/shadowsocks) and [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine). Thanks the authors of shadowsocks and gliderlabs/docker-alpine.
 ## Introduction
