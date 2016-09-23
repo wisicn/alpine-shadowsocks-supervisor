@@ -34,10 +34,10 @@ docker pull wisicn/alpine-shadowsocks-supervisor:latest
 To simply run the container:
 
 ```
-sudo docker run --name alpine-shadowsocks-supervisor -d -v /your/path/to/ss_supervisor_config_director/:/etc/supervisor.d/ -p 8388:8388  wisicn/alpine-shadowsocks-supervisor
+sudo docker run --name alpine-shadowsocks-supervisor -d -v /your/path/to/ss_supervisor_config_director/:/etc/supervisor.d/ -p 8388:8388 -p 8388:8388/udp wisicn/alpine-shadowsocks-supervisor
 ```
 
-You can change the -p <your Port>:8388 to override the shadowsocks service listening port.
+You can change the -p ```<your Port>:8388``` and  -p ```<your Port>:8388/udp``` to override the shadowsocks service listening port.
 
 ### Volumes and Config file
 The config file for Shadowsocks and Supervisor are located in /etc/supervisor.d/ .

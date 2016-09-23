@@ -4,5 +4,6 @@ RUN apk-install  libsodium py-pip supervisor \
     && pip install https://github.com/shadowsocks/shadowsocks/archive/2.9.0.zip
 
 EXPOSE 8388
+EXPOSE 8388/udp
 
 ENTRYPOINT ["supervisord", "--nodaemon", "--configuration", "/etc/supervisord.conf"]
