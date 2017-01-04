@@ -14,7 +14,7 @@ The Docker hub build can be found here: [https://registry.hub.docker.com/u/wisic
 ## Versions
 | Tag | Shadowsocks | Supervisor | Alpine |
 |-----|-------|-----|--------|
-| latest | 2.9.0 | 3.2.0 | 3.4 |
+| latest | 2.9.1 | 3.2.0 | 3.4 |
 
 
 ## Building from source
